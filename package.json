@@ -1,0 +1,14 @@
+{
+  "name": "one-token-sender",
+  "version": "1.0.0",
+  "description": "A simple script to send ONE tokens on the Onefinity Testnet",
+  "main": "sendToken.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sendToken.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.0",
+    "dotenv": "^10.0.0"
+  }
+}
